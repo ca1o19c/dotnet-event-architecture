@@ -13,7 +13,7 @@ namespace ApiOrderProducer.Domain
 
         public string ItemName { get; set; }
 
-        public string Price { get; set; }
+        public decimal Price { get; set; }
 
     }
 }
